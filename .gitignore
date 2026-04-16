@@ -1,0 +1,16 @@
+# Vivado
+vivado/
+*.log
+*.jou
+*.str
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.Xil/
+
+# Datasets (raw)
+data/MNIST/
+
+# OS
+.DS_Store
