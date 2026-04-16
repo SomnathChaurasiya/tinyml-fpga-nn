@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/pavan/somnath_working_dir/tinyml_fpga/rtl/neuron.v,1776356057,verilog,,/home/pavan/somnath_working_dir/tinyml_fpga/tb/neuron_tb.v,,neuron,,,,,,,,
+/home/pavan/somnath_working_dir/tinyml_fpga/tb/neuron_tb.v,1776356923,verilog,,,,neuron_tb,,,,,,,,
+/home/pavan/somnath_working_dir/tinyml_fpga/vivado/tinyml_nn/tinyml_nn.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

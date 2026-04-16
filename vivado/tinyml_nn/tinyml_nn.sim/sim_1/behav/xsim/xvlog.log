@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/pavan/somnath_working_dir/tinyml_fpga/rtl/neuron.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/pavan/somnath_working_dir/tinyml_fpga/tb/neuron_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_tb

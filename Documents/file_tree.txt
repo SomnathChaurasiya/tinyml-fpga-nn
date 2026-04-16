@@ -1,0 +1,94 @@
+pavan@pavan:~/somnath_working_dir/tinyml_fpga$ tree
+.
+├── data
+│   ├── fc1_bias.txt
+│   ├── fc1_weights.txt
+│   ├── fc2_bias.txt
+│   ├── fc2_weights.txt
+│   ├── input.txt
+│   └── MNIST
+│       └── raw
+│           ├── t10k-images-idx3-ubyte
+│           ├── t10k-images-idx3-ubyte.gz
+│           ├── t10k-labels-idx1-ubyte
+│           ├── t10k-labels-idx1-ubyte.gz
+│           ├── train-images-idx3-ubyte
+│           ├── train-images-idx3-ubyte.gz
+│           ├── train-labels-idx1-ubyte
+│           └── train-labels-idx1-ubyte.gz
+├── mnist_model.py
+├── rtl
+│   ├── neuron.v
+│   └── test.v
+├── sim
+├── tb
+│   ├── neuron_tb.v
+│   └── neuron_tb_working.v
+└── vivado
+    └── tinyml_nn
+        ├── tinyml_nn.cache
+        │   ├── compile_simlib
+        │   │   ├── activehdl
+        │   │   ├── modelsim
+        │   │   ├── questa
+        │   │   ├── riviera
+        │   │   ├── vcs
+        │   │   └── xcelium
+        │   ├── sim
+        │   │   └── ssm.db
+        │   └── wt
+        │       ├── project.wpc
+        │       └── xsim.wdf
+        ├── tinyml_nn.hw
+        │   └── tinyml_nn.lpr
+        ├── tinyml_nn.ip_user_files
+        │   └── README.txt
+        ├── tinyml_nn.sim
+        │   └── sim_1
+        │       └── behav
+        │           └── xsim
+        │               ├── compile.log
+        │               ├── compile.sh
+        │               ├── elaborate.log
+        │               ├── elaborate.sh
+        │               ├── glbl.v
+        │               ├── neuron_tb_behav.wdb
+        │               ├── neuron_tb.tcl
+        │               ├── neuron_tb_vlog.prj
+        │               ├── simulate.log
+        │               ├── simulate.sh
+        │               ├── xelab.pb
+        │               ├── xsim.dir
+        │               │   ├── neuron_tb_behav
+        │               │   │   ├── Compile_Options.txt
+        │               │   │   ├── obj
+        │               │   │   │   ├── xsim_0.lnx64.o
+        │               │   │   │   ├── xsim_1.c
+        │               │   │   │   └── xsim_1.lnx64.o
+        │               │   │   ├── TempBreakPointFile.txt
+        │               │   │   ├── xsimcrash.log
+        │               │   │   ├── xsim.dbg
+        │               │   │   ├── xsimk
+        │               │   │   ├── xsimkernel.log
+        │               │   │   ├── xsim.mem
+        │               │   │   ├── xsim.reloc
+        │               │   │   ├── xsim.rlx
+        │               │   │   ├── xsim.rtti
+        │               │   │   ├── xsimSettings.ini
+        │               │   │   ├── xsim.svtype
+        │               │   │   ├── xsim.type
+        │               │   │   └── xsim.xdbg
+        │               │   └── xil_defaultlib
+        │               │       ├── glbl.sdb
+        │               │       ├── neuron.sdb
+        │               │       ├── neuron_tb.sdb
+        │               │       └── xil_defaultlib.rlx
+        │               ├── xsim.ini
+        │               ├── xvlog.log
+        │               └── xvlog.pb
+        └── tinyml_nn.xpr
+
+
+
+
+
